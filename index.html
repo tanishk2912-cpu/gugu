@@ -1,0 +1,893 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Aahardarshan | Personalized Nutrition Guidance</title>
+  
+<!-- Google Search Console Verification -->
+<!-- Domain live hone ke baad Google se mila exact verification meta tag yahan add karein -->
+
+  <meta name="description" content="Explore practical nutrition guidance and personalized diet consultations with Aahardarshan.">
+  <meta name="theme-color" content="#f5f8f0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+
+      <a href="#home" class="brand" aria-label="Aahardarshan Home">
+        <img
+          src="images/aahardarshan-logo.png"
+          alt="Aahardarshan logo"
+          class="brand-logo"
+        >
+        <span class="brand-name">Aahardarshan</span>
+      </a>
+
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#results" class="nav-link">Our Results</a>
+        <a href="#consultation" class="nav-link">Contact</a>
+      </nav>
+
+      <a href="#consultation" class="header-cta">
+        Book Consultation <span aria-hidden="true">↗</span>
+      </a>
+      
+<button
+  type="button"
+  class="theme-toggle"
+  id="themeToggle"
+  aria-label="Switch to dark mode"
+  aria-pressed="false"
+>
+  <span class="theme-toggle-icon" aria-hidden="true">☾</span>
+  <span class="theme-toggle-label">Dark Mode</span>
+</button>
+
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+      <div class="hero-copy">
+        <span class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          SIMPLE HABITS. BETTER WELLNESS.
+        </span>
+
+        <h1>
+          Your wellness journey,
+          <span>made simpler.</span>
+        </h1>
+
+        <p class="hero-tagline">
+          Simple Home Diets,
+          <strong>Backed by Science.</strong>
+        </p>
+
+        <p class="hero-description">
+          Discover practical food habits and personalized nutrition
+          guidance designed to fit into your everyday life.
+        </p>
+
+        <div class="trust-points">
+          <span><span class="check">✓</span> Practical food choices</span>
+          <span><span class="check">✓</span> Personalized guidance</span>
+          <span><span class="check">✓</span> Everyday-friendly plans</span>
+        </div>
+
+        <a href="#consultation" class="primary-button hero-button">
+          Book Your Consultation <span aria-hidden="true">↗</span>
+        </a>
+
+        <p class="hero-footnote">
+          Small, consistent habits can support long-term wellbeing.
+        </p>
+      </div>
+
+      <!-- SIX PHOTO COLLAGE -->
+      <div class="results-area" id="results">
+
+        <div class="results-heading">
+          <span class="results-kicker">PERSONAL WELLNESS JOURNEYS</span>
+          <h2>Every journey is <span>different.</span></h2>
+          <p>Progress looks different for everyone. Celebrate every step.</p>
+        </div>
+
+        <div class="photo-grid">
+
+          <figure class="photo-card">
+            <img src="images/t1.jpeg" alt="Client progress example one">
+            <figcaption><span>DAY 0</span><span>DAY 55</span></figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="images/t2.jpeg" alt="Client progress example two">
+            <figcaption><span>DAY 0</span><span>DAY 55</span></figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="images/t3.jpeg" alt="Client progress example three">
+            <figcaption><span>DAY 0</span><span>DAY 55</span></figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="images/t4.jpeg" alt="Client progress example four" loading="lazy">
+            <figcaption><span>DAY 0</span><span>DAY 55</span></figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="images/t5.jpeg" alt="Client progress example five" loading="lazy">
+            <figcaption><span>DAY 0</span><span>DAY 55</span></figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="images/t6.jpeg" alt="Client progress example six" loading="lazy">
+            <figcaption><span>DAY 0</span><span>DAY 55</span></figcaption>
+          </figure>
+
+        </div>
+
+        <p class="photo-disclaimer">
+          Individual experiences vary. Use client images only with permission.
+        </p>
+      </div>
+
+    </section>
+     <!-- CONSULTATION SECTION -->
+    <section class="consultation-section" id="consultation">
+
+      
+
+      <form id="consultationForm" class="consultation-form">
+
+        <div class="form-heading">
+          <h3>Consultation Form</h3>
+          <p>Fields marked * are required.</p>
+        </div>
+
+        <div class="form-grid">
+
+          <div class="form-field">
+            <label for="fullName">Full Name *</label>
+            <input
+              id="fullName"
+              name="fullName"
+              type="text"
+              placeholder="Enter your full name"
+              autocomplete="name"
+              minlength="2"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="phone">Mobile Number *</label>
+            <input
+              id="phone"
+              name="phone"
+              type="tel"
+              placeholder="10-digit mobile number"
+              inputmode="numeric"
+              autocomplete="tel"
+              pattern="[6-9][0-9]{9}"
+              maxlength="10"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="age">Age *</label>
+            <input
+              id="age"
+              name="age"
+              type="number"
+              placeholder="Enter your age"
+              min="18"
+              max="100"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="gender">Gender *</label>
+            <select id="gender" name="gender" required>
+              <option value="">Select an option</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Other">Other</option>
+              <option value="Prefer not to say">Prefer not to say</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email Address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@example.com"
+              autocomplete="email"
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="city">City *</label>
+            <input
+              id="city"
+              name="city"
+              type="text"
+              placeholder="Enter your city"
+              autocomplete="address-level2"
+              required
+            >
+          </div>
+
+        </div>
+
+        <label class="consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <span>
+            I agree to be contacted about my consultation and acknowledge
+            the <a href="privacy.html" target="_blank" rel="noopener">Privacy Policy</a>. *
+          </span>
+        </label>
+
+        <button class="primary-button submit-button" type="submit">
+          <span class="submit-label">Submit Request</span>
+          <span aria-hidden="true">→</span>
+        </button>
+
+        <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+
+      </form>
+    </section>
+    
+<!-- CONSULTATION SUCCESS POPUP -->
+<div class="success-modal" id="successModal" aria-hidden="true">
+  <div class="success-overlay"></div>
+
+  <div
+    class="success-card"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="successTitle"
+    aria-describedby="successDescription"
+    tabindex="-1"
+  >
+    <button
+      type="button"
+      class="success-close"
+      id="successClose"
+      aria-label="Close popup"
+    >×</button>
+
+    <div class="success-icon">
+      <svg viewBox="0 0 52 52" aria-hidden="true">
+        <circle cx="26" cy="26" r="23" fill="none" stroke="currentColor" stroke-width="2.5"/>
+        <path d="M15 26l7 7 15-16" fill="none" stroke="currentColor"
+          stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <span class="success-eyebrow">WELCOME TO AAHARDARSHAN</span>
+
+    <h2 id="successTitle">You're All Set!</h2>
+
+    <p class="success-message" id="successDescription">
+      Your consultation form has been submitted successfully.
+    </p>
+
+    <p class="success-subtext">
+      Thank you for taking the first step towards a healthier you.
+      We're glad to be a part of your wellness journey. 🌿
+    </p>
+
+    <div class="instagram-invite">
+      <span class="instagram-symbol" aria-hidden="true">◎</span>
+      <h3>Let's Stay Connected!</h3>
+      <p>
+        Explore wellness tips, nutrition insights and healthy
+        lifestyle inspiration on our Instagram.
+      </p>
+
+      <a
+        href="#"
+        class="instagram-button"
+        id="instagramButton"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Explore Our Instagram <span aria-hidden="true">↗</span>
+      </a>
+      <small>You can add your Instagram profile link later.</small>
+    </div>
+
+    <p class="success-footer">Nourish Better. Live Healthier. 💚</p>
+  </div>
+</div>
+
+    <!-- ABOUT AAHARDARSHAN SECTION -->
+<section class="about-section" id="about">
+  <div class="about-container">
+
+    <!-- Left Side: Brand Logo -->
+    <div class="about-brand-card">
+      <div class="about-logo-wrap">
+        <img
+          src="images/aahardarshan-logo.png"
+          alt="Aahardarshan company logo"
+          class="about-logo"
+        />
+      </div>
+
+      <p class="about-brand-name">Aahardarshan</p>
+      <p class="about-brand-tagline">Nourish Better. Live Healthier.</p>
+
+      <div class="about-brand-accent"></div>
+      <span class="about-brand-caption">YOUR WELLNESS, OUR PRIORITY</span>
+    </div>
+
+    <!-- Right Side: Company Description -->
+    <div class="about-content">
+      <span class="about-eyebrow">GET TO KNOW US</span>
+
+      <h2>About <span>Aahardarshan</span> Pvt. Ltd.</h2>
+
+      <p class="about-intro">
+        AaharDarshan is a health, wellness, nutrition, and lifestyle company
+        dedicated to promoting healthier living through personalized nutrition,
+        diet consultation, wellness products, and holistic health solutions.
+      </p>
+
+      <p>
+        Our focus is on making healthy living simple, practical, and accessible
+        through personalized diet plans, weight management programs,
+        nutritional supplements, and wellness-focused products.
+      </p>
+
+      <p>
+        We believe the right nutrition and healthy lifestyle habits are the
+        foundation of overall well-being. Our mission is to empower individuals
+        to make informed choices and move towards a healthier, more balanced life.
+      </p>
+
+      <div class="about-areas">
+        <h3>Our Key Areas</h3>
+
+        <div class="about-area-grid">
+          <div class="about-area">
+            <span class="about-area-icon">✳</span>
+            <span>Diet &amp; Nutrition Consultation</span>
+          </div>
+
+          <div class="about-area">
+            <span class="about-area-icon">↗</span>
+            <span>Weight Management &amp; Fitness</span>
+          </div>
+
+          <div class="about-area">
+            <span class="about-area-icon">＋</span>
+            <span>Nutritional Supplements &amp; Health Products</span>
+          </div>
+
+          <div class="about-area">
+            <span class="about-area-icon">❋</span>
+            <span>Ayurvedic-Inspired Wellness</span>
+          </div>
+
+          <div class="about-area">
+            <span class="about-area-icon">♡</span>
+            <span>Healthy Lifestyle Solutions</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-vision">
+        <span class="about-vision-label">OUR VISION</span>
+        <p>
+          To build a trusted Indian wellness brand that brings together
+          nutrition, science, and holistic well-being under one roof.
+        </p>
+      </div>
+
+      <div class="about-signoff">
+        <span>Nourish Better.</span>
+        <span>Live Healthier.</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOUNDER VIDEO SECTION -->
+<section class="founder-section" id="founder">
+  <div class="founder-container">
+
+    <div class="founder-content">
+      <span class="founder-eyebrow">A PERSONAL MESSAGE</span>
+
+      <h2>A Message from <span>Our Founder</span></h2>
+
+      <p class="founder-intro">
+        At Aahardarshan, we believe that better health begins with
+        better choices. Our founder shares the vision, values and
+        purpose behind our journey towards healthier living.
+      </p>
+
+      <div class="founder-quote">
+        “Nourish Better. Live Healthier.”
+      </div>
+
+      <p class="founder-note">
+        Watch this message to learn more about our mission and
+        commitment to nutrition, wellness and a healthier lifestyle.
+      </p>
+
+      <a href="#consultation" class="founder-cta">
+        Connect With Us <span aria-hidden="true">→</span>
+      </a>
+    </div>
+
+    <div class="founder-video-card">
+      <div class="founder-video-heading">
+        <span class="founder-video-dot"></span>
+        <span>MEET OUR FOUNDER</span>
+      </div>
+
+      
+<div class="video-wrapper founder-video-wrapper">
+  <video
+    class="founder-video"
+    controls
+    playsinline
+    preload="metadata"
+    poster="images/happydon.jpeg"
+  >
+    <source src="videos/Video.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-actions">
+    <button type="button" class="video-play" aria-label="Play video">▶</button>
+    <button type="button" class="video-close" aria-label="Close video">✕</button>
+  </div>
+</div>
+
+
+      <div class="founder-video-caption">
+        <span class="founder-caption-icon">▶</span>
+        <span>Our vision. Our purpose. Your well-being.</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- DOCTOR PROFILE SECTION -->
+
+<!-- DOCTOR PROFILE SECTION -->
+<section class="doctor-profile" id="doctor" aria-labelledby="doctor-heading">
+  <div class="doctor-profile__container">
+
+    <!-- Doctor Image -->
+    <div class="doctor-profile__visual">
+      <div class="doctor-profile__image-frame">
+        <img
+          src="images/insta.jpeg"
+          alt="Dr. Shivam Agarwal, BNYS, founder of Aahardarshan"
+          loading="lazy"
+          decoding="async"
+          width="600"
+          height="750"
+        />
+
+        <div class="doctor-profile__image-badge">
+          <span class="doctor-profile__badge-dot"></span>
+          
+        </div>
+      </div>
+
+      <div class="doctor-profile__visual-note">
+        <span class="doctor-profile__note-icon" aria-hidden="true"> ✳</span>
+        <div>
+          <strong>Healthy Living, Naturally</strong>
+          <span>Small steps. Sustainable habits.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Profile Information -->
+    <div class="doctor-profile__content">
+
+      <p class="doctor-profile__eyebrow">
+        <span></span>
+        MEET YOUR WELLNESS GUIDE
+      </p>
+
+      <h2 id="doctor-heading">
+        Meet Dr. Shivam
+        <span>Agarwal.</span>
+      </h2>
+
+      <p class="doctor-profile__qualification">
+        BNYS <span>•</span> Yoga & Naturopathy Physician
+      </p>
+
+      <p class="doctor-profile__description">
+        Meet the professional behind Aahardarshan, sharing practical
+        guidance on nutrition, mindful living, healthy habits and
+        holistic wellness to help you make more informed lifestyle choices.
+      </p>
+
+      <!-- Instagram Community Highlight -->
+      <div class="doctor-profile__community">
+        <div class="doctor-profile__community-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <rect x="3" y="3" width="18" height="18" rx="5"
+              stroke="currentColor" stroke-width="1.8"/>
+            <circle cx="12" cy="12" r="4"
+              stroke="currentColor" stroke-width="1.8"/>
+            <circle cx="17.5" cy="6.8" r="1.1" fill="currentColor"/>
+          </svg>
+        </div>
+
+        <div class="doctor-profile__community-info">
+          <span class="doctor-profile__community-label">
+            OUR INSTAGRAM COMMUNITY
+          </span>
+
+          <div class="doctor-profile__community-number">
+            62K<span>+</span>
+          </div>
+
+          <p>People connecting through wellness content</p>
+        </div>
+
+        <span class="doctor-profile__community-arrow" aria-hidden="true">
+          ↗
+        </span>
+      </div>
+
+      <!-- Areas of Interest -->
+      <div class="doctor-profile__expertise">
+        <span>Nutrition & Diet</span>
+        <span>Healthy Lifestyle</span>
+        <span>Yoga & Naturopathy</span>
+        <span>Wellness Education</span>
+      </div>
+
+      <!-- Profile Identity -->
+      <div class="doctor-profile__identity">
+        <div class="doctor-profile__identity-mark" aria-hidden="true">AD</div>
+
+        <div class="doctor-profile__identity-text">
+          <strong>Aahardarshan</strong>
+          <span>Nourish Better. Live Healthier.</span>
+        </div>
+      </div>
+
+      <!-- Replace the URL with the actual Instagram profile URL -->
+      <a
+        class="doctor-profile__cta"
+        href="https://www.instagram.com/"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Visit the AaharDarshan Instagram profile"
+      >
+        <span>Explore Our Instagram</span>
+        <span class="doctor-profile__cta-arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <p class="doctor-profile__disclaimer">
+        Educational wellness content is intended to support informed
+        lifestyle choices and does not replace individual medical advice.
+      </p>
+
+    </div>
+  </div>
+</section>
+<!-- END DOCTOR PROFILE SECTION -->
+
+<!-- END DOCTOR PROFILE SECTION -->
+ 
+<!-- CLIENT VIDEO TESTIMONIALS SECTION -->
+<section
+  class="testimonials-section"
+  id="testimonials"
+  aria-labelledby="testimonials-heading"
+>
+  <div class="testimonials-container">
+
+    <div class="testimonials-header">
+      <p class="testimonials-eyebrow">
+        REAL STORIES • REAL EXPERIENCES
+      </p>
+
+      <h2 id="testimonials-heading">
+        Our Clients, Their Stories
+      </h2>
+
+      <p class="testimonials-intro">
+        Hear directly from our clients about their wellness journeys
+        and experiences with AaharDarshan.
+      </p>
+    </div>
+
+    
+<div class="testimonial-slider" id="testimonialSlider">
+
+  <button class="testimonial-arrow testimonial-prev"
+          type="button" aria-label="Previous testimonial">
+    &#10094;
+  </button>
+
+  <div class="testimonial-track">
+
+    <article class="testimonial-slide is-active">
+      <div class="testimonial-video-wrap">
+       
+<div class="video-wrapper">
+  <video
+    class="testimonial-video"
+    controls
+    playsinline
+    preload="metadata"
+    poster="images/founder-poster.jpg"
+  >
+    <source src="videos/t1.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-actions">
+    <button type="button" class="video-play" aria-label="Play video">▶</button>
+    <button type="button" class="video-close" aria-label="Close video">✕</button>
+  </div>
+</div>
+
+      </div>
+      <div class="testimonial-content">
+        <span class="testimonial-number">01 / 04</span>
+        <h3>A Journey Towards Better Wellness</h3>
+        <p>Listen to a real client share their personal experience.</p>
+      </div>
+    </article>
+
+    <article class="testimonial-slide">
+      <div class="testimonial-video-wrap">
+   
+<div class="video-wrapper">
+  <video
+    class="testimonial-video"
+    controls
+    playsinline
+    preload="metadata"
+    poster="images/founder-poster.jpg"
+  >
+    <source src="videos/t2.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-actions">
+    <button type="button" class="video-play" aria-label="Play video">▶</button>
+    <button type="button" class="video-close" aria-label="Close video">✕</button>
+  </div>
+</div>
+
+      </div>
+      <div class="testimonial-content">
+        <span class="testimonial-number">02 / 04</span>
+        <h3>A Personal Wellness Experience</h3>
+        <p>Real experiences, shared in our clients’ own words.</p>
+      </div>
+    </article>
+
+    <article class="testimonial-slide">
+      <div class="testimonial-video-wrap">
+       
+<div class="video-wrapper">
+  <video
+    class="testimonial-video"
+    controls
+    playsinline
+    preload="metadata"
+    poster="images/founder-poster.jpg"
+  >
+    <source src="videos/t3.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-actions">
+    <button type="button" class="video-play" aria-label="Play video">▶</button>
+    <button type="button" class="video-close" aria-label="Close video">✕</button>
+  </div>
+</div>
+
+      </div>
+      <div class="testimonial-content">
+        <span class="testimonial-number">03 / 04</span>
+        <h3>Every Journey Is Personal</h3>
+        <p>Discover another story from the AaharDarshan community.</p>
+      </div>
+    </article>
+
+    <article class="testimonial-slide">
+      <div class="testimonial-video-wrap">
+      
+<div class="video-wrapper">
+  <video
+    class="testimonial-video"
+    controls
+    playsinline
+    preload="metadata"
+    poster="images/founder-poster.jpg"
+  >
+    <source src="videos/t4.mp4" type="video/mp4">
+  </video>
+
+  <div class="video-actions">
+    <button type="button" class="video-play" aria-label="Play video">▶</button>
+    <button type="button" class="video-close" aria-label="Close video">✕</button>
+  </div>
+</div>
+
+      </div>
+      <div class="testimonial-content">
+        <span class="testimonial-number">04 / 04</span>
+        <h3>Stories That Build Trust</h3>
+        <p>Hear directly from another client about their experience.</p>
+      </div>
+    </article>
+
+  </div>
+
+  <button class="testimonial-arrow testimonial-next"
+          type="button" aria-label="Next testimonial">
+    &#10095;
+  </button>
+
+  <div class="testimonial-slider-footer">
+    <div class="testimonial-dots" aria-label="Choose testimonial">
+      <button class="testimonial-dot is-active" type="button" aria-label="Video 1"></button>
+      <button class="testimonial-dot" type="button" aria-label="Video 2"></button>
+      <button class="testimonial-dot" type="button" aria-label="Video 3"></button>
+      <button class="testimonial-dot" type="button" aria-label="Video 4"></button>
+    </div>
+    <span class="testimonial-slider-caption">REAL STORIES · REAL EXPERIENCES</span>
+  </div>
+
+</div>
+
+  </div>
+</section>
+<!-- END CLIENT VIDEO TESTIMONIALS SECTION -->
+ 
+<!-- SECTION 8: FOUNDER & DOCTOR INTRODUCTION -->
+<section
+  class="founder-intro-section"
+  id="founder-intro"
+  aria-labelledby="founder-intro-heading"
+>
+  <div class="founder-intro-container">
+
+    <!-- Doctor Portrait -->
+    <div class="founder-intro-image">
+      <div class="founder-image-frame">
+        <img
+          src="images/don.jpeg"
+          alt="Dr. Shivam Agarwal, BNYS, Founder of AaharDarshan"
+          loading="lazy"
+          decoding="async"
+          width="600"
+          height="750"
+        />
+      </div>
+
+      <div class="founder-image-caption">
+        <span class="founder-caption-label">FOUNDER & WELLNESS PHYSICIAN</span>
+        <span class="founder-caption-name">Dr. Shivam Agarwal</span>
+        <span class="founder-caption-qualification">BNYS</span>
+      </div>
+
+      <div class="founder-image-decoration" aria-hidden="true">
+        <span>AD</span>
+      </div>
+    </div>
+
+    <!-- Doctor Description -->
+    <div class="founder-intro-content">
+
+      <p class="founder-intro-eyebrow">
+        <span class="founder-eyebrow-line"></span>
+        MEET THE FOUNDER
+      </p>
+
+      <h2 id="founder-intro-heading">
+        A Healthier You Begins With
+        <span>Better Choices.</span>
+      </h2>
+
+      <div class="founder-doctor-name">
+        <h3>Dr. Shivam Agarwal <span>(BNYS)</span></h3>
+        <p>Founder of AaharDarshan</p>
+      </div>
+
+      <p class="founder-intro-description">
+        Dr. Shivam Agarwal is a health and wellness professional
+        dedicated to promoting healthy living through personalized
+        nutrition, diet planning, naturopathy, and yoga.
+      </p>
+
+      <p class="founder-intro-description">
+        As the founder of AaharDarshan, his mission is to help people
+        adopt healthier lifestyles through practical dietary guidance,
+        sustainable weight management, and holistic wellness solutions.
+      </p>
+
+      <div class="founder-focus-block">
+        <h4>AREAS OF FOCUS</h4>
+
+        <div class="founder-focus-tags">
+          <span>Weight Management</span>
+          <span>Thyroid Health</span>
+          <span>PCOS / PCOD</span>
+          <span>Diabetes Management</span>
+          <span>Digestive Wellness</span>
+          <span>Nutrition & Well-being</span>
+        </div>
+      </div>
+
+      <div class="founder-mission">
+        <span class="founder-mission-icon" aria-hidden="true">✳</span>
+        <div>
+          <h4>OUR MISSION</h4>
+          <p>
+            To make healthy living simple, sustainable, and accessible
+            for everyone.
+          </p>
+        </div>
+      </div>
+
+      <div class="founder-intro-brand">
+        <span>AaharDarshan</span>
+        <span class="founder-brand-divider"></span>
+        <span>Nourish Better. Live Healthier.</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- END SECTION 8: FOUNDER & DOCTOR INTRODUCTION -->
+
+
+</main>
+
+  <footer class="site-footer">
+    <a href="#home" class="footer-brand">Aahardarshan</a>
+    <p>Simple habits. Thoughtful nutrition. Everyday wellbeing.</p>
+    <p>© <span id="currentYear"></span> Aahardarshan. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  
+<a href="#consultation" class="mobile-booking-bar">
+  <span class="mobile-booking-caption">Ready to start your wellness journey?</span>
+  <span class="mobile-booking-button">Book Your Consultation ↗</span>
+</a>
+
+
+</body>
+</html>
